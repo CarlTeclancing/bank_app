@@ -1,0 +1,132 @@
+.master-1{
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+
+.right{
+    width: 100%;
+    max-height: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.same, .left-s{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.815);
+    margin: 5px;
+    border-radius: 10px;
+    border: 4px solid rgba(0, 0, 0, 0.562);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.same-1{
+    margin: 2px;
+    width: 100%;
+    max-height: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 600px) {
+   .same-1{
+    margin: 2px;
+    width: 100%;
+    max-height: 300px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.master-1{
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+.footer{
+    height: 400px;
+}
+    
+}
+.payment{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.payment img{
+    width: 40px;
+    height: 30px;
+}
+.longer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.longer h3{
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.longer button{
+    margin: 20px;
+
+    color: white;
+    font-size: 1rem;
+}
+.longer button:hover{
+    margin: 20px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    font-size: 1rem;
+    transition: 1.2s;
+}
+.inner-s, .inner-sm{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-box{
+    width: 100%;
+}
+#img-12{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 1px;
+    transform: rotate(5deg);
+}
+.inner-sm{
+    position: relative;
+}

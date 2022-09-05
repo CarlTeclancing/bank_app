@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/drop.css">
+    <!-- CSS boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+</head>
+<body>
+        <div class="main-container">
+            <div class="header-1">
+                <h1>Welcome to ProFinance</h1>
+                <a href="./wp-try/index.html">How ProFinance works</a>
+                <p>Once you recieve funds in your wallet, transactions will start showning here.</p>
+                <p>You can also pull down on this list to refresh your transaction history.</p>
+            </div>
+            
+        </div>
+        <div class="header">
+            <div class="logo"><span>ProFinance</span></div>
+            <div class="cash">
+                <i class="bi bi-cash-coin m-0"></i><br>
+                <span class="m-0">$1000</span>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="home"><i class="bi bi-house"></i></div>
+            <div class="visa" id="visa"><i class="bi bi-credit-card"></i></div>
+            <div class="referral" id="referral"><i class="bi bi-currency-dollar"></i></div>
+            <div class="account" onclick="openMenu()"><i class="bi bi-person"></i></div>
+            <div class="scan"><i class="bi bi-qr-code-scan"></i></div>
+
+        </div>
+        <div class="usser">
+            <span>@usser_name</span>
+            <span>Balance: <small>$1000</small></span>
+            
+        </div>
+        <button class="btn t-1" onclick="openMenu1()">Top Up</button>
+        <button class="btn t-2" onclick="openMenu1()">Withdraw Funds</button>
+        <button class="btn t-3" onclick="openMenu1()">Send to fiend</button>
+        <span class="resent">Ressent Transactions</span>
+
+        <div class="card-zone" id="card-zone">
+            <span class="close-search" id="close-fav"><i class="bi bi-x-lg"></i></span>
+            <div class="info">
+                <span>Cards</span>
+                <span class="f-1"><a href="#">Create card</a></span>
+            </div>
+            <div class="demo-card"><img class="img" src="images/credit-card.jfif" alt="" srcset=""></div>
+            <p class="m-1">Instantly generate a virtual shopping card like the onw displayed above. Use the card to pay for at online stores like Apple music, Netflix, Amazon, Google,Facebook and virtually any where a visa card is accepted.</p>
+            <a href="">Click here to start</a>
+        </div>
+        <div class="referal-zone" id="referal-zone">
+            <span class="close-search" id="close-ref"><i class="bi bi-x-lg"></i></span>
+            <img src="images/referal.jfif" alt="image loading">
+            <span>Who Refered You?</span>
+            <input type="text" class="input" placeholder="           $">
+        </div>
+        <!--profile zone-->
+         <!--profile menu display zone-->
+    <div class="content" id="content">
+                        
+        <span class="bi bi-person-circle"></span>
+        <small class="small">Usser name</small>
+        <small class="small">email@gmail.com</small>
+        <small class="small">Status: <span>student</span></small>
+        <button class="btn-1" onclick="closeMenu()">Close</button>
+    </div>
+    <!--top up-->
+    <div class="content-1" id="content-1">
+
+        <small class="small">sorry this page is Unavailable right now!</small>
+        <button class="btn-1" onclick="closeMenu1()">Close</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
